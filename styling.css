@@ -1,0 +1,227 @@
+
+/* ***************************************************************************** */
+/* ***************************************************************************** */
+/* ***************************************************************************** */
+/* Main page */
+
+body{
+	margin: 0;
+	padding:0;
+	background-color: #BBDDEA;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+a:hover{
+	color:red;
+}
+a:active{
+	color:green;
+}
+a:visited{
+	color:yellow;
+}
+.inner-left p{
+	font-family:"Lucida Console", Courier, monospac;
+	font-size: 6px;
+}
+
+h4{
+	font: 20px Georgia, serif;
+	color:#F9F315;
+}
+h1{
+	font: 40px Georgia, serif;
+	color:#F9F315;
+}
+
+h2{
+	font: 28px Georgia, serif;
+	color:#F9F315;
+}
+
+
+#contact-page{
+	background-image: url("Covid4.jpg");
+}
+
+#main-header{
+	text-align:center;
+  	font: 20px Georgia, serif;
+	color:#AFD3DD;
+	padding:10px;
+	border: none
+}
+
+#action-button1{
+	text-align: right;
+	background-color: #F9F315;
+	color;#fff;
+	font-size: 28px;
+	display: block;
+  	margin-left: 50%;
+}
+
+#action-button2{
+	text-align: left;
+	background-color: #FF6666;
+	color;#fff;
+	font-size: 28px;
+}
+
+#navbar{
+	background-color:#FDFCDC; 
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+	text-align: center;
+	padding:15px;
+
+}
+
+#navbar li{
+	display: inline;
+}
+
+#navbar a{
+	color:white;
+	text-decoration: none;
+	font-size: 25px;
+	color:black;
+	padding: 50px;
+}
+/*source of code: https://allwebco-templates.com/support/S_sidebar_add.htm */
+.float-left-area{
+	width: 80%;
+	float: left;
+}
+
+.float-right-area{
+	width: 20%;
+	float: left;
+}
+
+.inner-left{
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	margin-right: 10px;
+	border: #999999 1px solid;
+	min-height: 60px;
+}
+
+.inner-right{
+	font-size: 11px;
+	padding: 5px 5px 5px 5px;
+	border: #999999 1px solid;
+	min-height: 60px;
+}
+
+
+
+.clear-floated{ 
+	clear: both; height: 1px; font-size: 1px; line-height: 1px; padding: 0; margin: 0; 
+}
+
+.search-box{
+	float:right;
+}
+
+#main-footer{
+	text-align: center;
+	font-size: 18px;
+	color: #FDFCDC;
+}
+
+
+/* ***************************************************************************** */
+/* ***************************************************************************** */
+/* ***************************************************************************** */
+/* ID page */
+
+
+#id-page{
+	background-image: url("Covid4.jpg");
+	text-align: center;
+	
+}
+#id-page p{
+	text-align: center;
+	color: #F0F0F0;
+	font-size: 20px;
+}
+
+#id-page #label1{
+	text-align: center;
+	font-size: 20px;
+	color: #F0F0F0;
+}
+
+/* ***************************************************************************** */
+/* ***************************************************************************** */
+/* ***************************************************************************** */
+/* Contact page */
+
+.my-form{
+	padding: 20px;
+	text-align: right;
+
+}
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+
+.my-form label{
+	display:block;   /*have the word above*/
+}
+
+.my-form input[type="text"] .my-form textarea{ /*input box size*/
+	padding:90pc;
+	width:1500;
+}
+
+
+/* ***************************************************************************** */
+/* ***************************************************************************** */
+/* ***************************************************************************** */
+/* Confirmation page */
+
+#conf-page h1{
+	font: 30px Georgia, serif;
+	color:#F9F315;
+	text-align: center;
+}
+#conf-page img{
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 50%;
+}
+
+/* ***************************************************************************** */
+/* ***************************************************************************** */
+/* ***************************************************************************** */
+/* Testing page */
+
+#testing h5{
+	font: 30px Georgia, serif;
+	color:#F9F315;
+	text-align: center;
+}
+
+#testing p{
+	font: 30px Georgia, serif;
+	font-family:"Lucida Console", Courier, monospac;
+	font-size: 8px;
+	text-align: center;
+}
+
+
+
+
+
+
+
